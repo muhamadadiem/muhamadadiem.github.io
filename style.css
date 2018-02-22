@@ -1,0 +1,76 @@
+body {
+	background-color: #e5e5e5;
+	font-family: courier;
+
+}
+
+.navbar {
+	background-color: black;
+}
+
+.navbar ul {
+	text-align: center;
+	margin: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;	
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline;
+	padding-left: 2rem;
+}
+
+
+.navbar ul li:first-of-type {
+	padding-left: 0;
+}
+
+.navbar ul li a{
+	color: grey;
+	text-decoration: none;
+}
+
+.navbar ul li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.navbar ul li a.active {
+	text-decoration: underline;
+	color: white;
+}
+
+.section {
+	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+	height: 50vh;
+}
+
+.name-section{
+	position: relative;
+}
+
+.bgwhite {
+	background-color: white;
+}
+
+.circle {
+	display: inline-block;
+	position: relative;
+	top: -12.5vh;
+	margin-left: 43vw;
+}
+
+.circle img{
+	height: 25vh;
+	width: 25vh;
+	border-radius: 50%;
+}
+
+.floating{
+	margin-top: -25vh;
+}
+
+
